@@ -18,13 +18,6 @@ p {
   margin: 0 0 1em;
 }
 
-main li {
-  font-weight: bold;
-}
-main li li {
-  font-weight: normal;
-}
-
 #venue {
   font-size: 1.5em;
 }
