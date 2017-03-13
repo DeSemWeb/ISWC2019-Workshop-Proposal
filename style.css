@@ -1,7 +1,7 @@
 body {
   max-width: 800px;
   margin: 0 auto;
-  font: 11pt/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 11pt/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   hyphens: auto;
 }
 
@@ -10,7 +10,7 @@ main {
 }
 
 h1, h2, h3 {
-  margin: 1em 0 0;
+  margin: 1em 0 .25em;
   clear: both;
 }
 
