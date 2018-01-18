@@ -1,7 +1,7 @@
 body {
   max-width: 800px;
   margin: 0 auto;
-  font: 11pt/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 11pt/1.7 "Helvetica Neue", Helvetica, Arial, sans-serif;
   hyphens: auto;
 }
 
@@ -16,6 +16,10 @@ h1, h2, h3 {
 
 p {
   margin: 0 0 1em;
+}
+
+section {
+  page-break-inside: avoid;
 }
 
 #venue {
@@ -38,13 +42,12 @@ p {
 }
 .chair img {
   float: right;
-  margin: -1em 0 1em 2em;
+  margin: -3em 0 1em 2em;
   width: 10em;
 }
 
 @media print {
   body {
-    font-size: 10pt;
     text-align: justify;
   }
   a {
